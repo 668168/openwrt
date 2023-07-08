@@ -12,4 +12,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 # src-git passwall https://github.com/xiaorouji/openwrt-passwall
 # src-git kenzo https://github.com/kenzok8/openwrt-packages
 #这是 Passwall 插件所需的依赖，也可使用 Lienol passwall 替代
-# src-git small https://github.com/kenzok8/small  
+src-git small https://github.com/kenzok8/small  
+# passwall source code ,check to luci branch
+# do not work , need some dependent
+src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;luci
