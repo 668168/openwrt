@@ -1,0 +1,8 @@
+make[1]: Entering directory '/opt/work/lede/scripts/config'
+make[1]: 'conf' is up to date.
+make[1]: Leaving directory '/opt/work/lede/scripts/config'
++ mkdir -p /opt/work/lede/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.3.0_musl_eabi
++ cd /opt/work/lede/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.3.0_musl_eabi
++ ln -nsf lib lib64
++ ln -nsf lib lib32
++ mkdir -p stamp lib usr/include usr/lib
